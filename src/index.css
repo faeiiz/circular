@@ -18,9 +18,9 @@ body,
   position: fixed;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
-  font-family: "brush script mt";
+  font-family: "Courier New", Courier, monospace;
   position: fixed;
   top: 50%;
   left: 50%;

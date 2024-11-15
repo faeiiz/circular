@@ -24,7 +24,7 @@ const App = () => {
           />
         </EffectComposer>
       </Canvas>
-      <h1> Faeizmn.</h1>
+      <h1> faeizmn.</h1>
     </>
   );
 };
