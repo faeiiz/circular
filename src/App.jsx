@@ -17,9 +17,9 @@ const App = () => {
         <Scene />
         <EffectComposer>
           <Bloom
-            intensity={20.0} // The bloom intensity.
-            luminanceThreshold={0} // luminance threshold. Raise this value to mask out darker elements in the scene.
-            luminanceSmoothing={0} // smoothness of the luminance threshold. Range is [0, 1]
+            intensity={10.0} // The bloom intensity.
+            luminanceThreshold={0.01} // luminance threshold. Raise this value to mask out darker elements in the scene.
+            luminanceSmoothing={0.1} // smoothness of the luminance threshold. Range is [0, 1]
             // mipmapBlur={false} // Enables or disables mipmap blur.
           />
         </EffectComposer>
