@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import { DoubleSide } from "three";
 
 const Scene = () => {
-  const color = useTexture("./faiz.png");
+  const color = useTexture("../faiz.png");
   let cyl = useRef();
   useFrame((state, delta) => {
     cyl.current.rotation.y += delta;
