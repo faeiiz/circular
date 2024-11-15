@@ -11,7 +11,7 @@ import {
 const App = () => {
   return (
     <>
-      <Canvas flat camera={{ fov: 25 }}>
+      <Canvas flat camera={{ fov: 35 }}>
         <OrbitControls />
         <ambientLight />
         <Scene />
@@ -24,7 +24,7 @@ const App = () => {
           />
         </EffectComposer>
       </Canvas>
-      <h1> faeizmn.</h1>
+      <h1> Faeizmn.</h1>
     </>
   );
 };

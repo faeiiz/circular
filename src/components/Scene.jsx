@@ -11,7 +11,7 @@ const Scene = () => {
   });
 
   return (
-    <group rotation={[0, 1.4, 0.4]}>
+    <group rotation={[0, 1.5, 0.3]}>
       <mesh ref={cyl}>
         {/* radiusTop : Float, radiusBottom : Float, height : Float, radialSegments : Integer, heightSegments : Integer, openEnded : Boolean, */}
         <cylinderGeometry args={[1.8, 1.8, 1, 100, 100, true]} />
